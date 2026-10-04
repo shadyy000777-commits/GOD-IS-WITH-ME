@@ -1,0 +1,22 @@
+{
+  "name": "bgmi-rebound-t3-tournament-bot",
+  "version": "1.0.0",
+  "description": "Discord bot: Rebound scrims + T3 scrims + Tournament system in one bot (separate namespaces, separate data)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "start": "node index.js",
+    "migrate:tournament": "node tn-migrate-from-scrims-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "pg": "^8.12.0",
+    "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

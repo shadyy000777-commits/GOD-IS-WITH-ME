@@ -1,0 +1,23 @@
+# --- Secrets — never commit these ---
+.env
+.env.local
+.env.*.local
+
+# --- Dependencies — Railway runs npm install itself, don't commit these ---
+node_modules/
+
+# --- Logs ---
+*.log
+npm-debug.log*
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Keep these — do NOT add them here ---
+# package.json          -> Railway needs this to know what to install
+# package-lock.json     -> Railway needs this to install EXACT versions (removing
+#                           this from git is a common cause of "worked yesterday,
+#                           broke today" deploys)

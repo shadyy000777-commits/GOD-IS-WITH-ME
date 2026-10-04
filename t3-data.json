@@ -1,0 +1,13 @@
+{
+  "1": {
+    "registrations": {},
+    "scrim": {
+      "scrimName": "T3 Scrims",
+      "totalSlots": 20000,
+      "slots": {},
+      "createdDayNumber": 20730,
+      "groupsPerDay": 2
+    },
+    "settings": {}
+  }
+}
