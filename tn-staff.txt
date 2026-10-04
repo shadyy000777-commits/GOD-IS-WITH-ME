@@ -1,0 +1,7 @@
+# One staff member per line, free text. The AI reads this file fresh on
+# every reply, so you can edit it any time without restarting the bot.
+# Lines starting with # are just notes and are stripped out below by nothing
+# special — keep it simple, one line per person, e.g.:
+#
+# Shady is the bot owner and lead admin, handles disputes and bans.
+# Rithwikreddy runs registrations and slot lists.
