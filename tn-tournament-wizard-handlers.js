@@ -7558,6 +7558,7 @@ function isStaffOfTournamentId(interaction, tid) {
 }
 
 module.exports = {
+  refreshRegisterPanel,
   isStaffOfTournamentId,
   handleSlotListEditPick,
   handleSlotListEditModalSubmit,
